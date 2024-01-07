@@ -214,3 +214,13 @@ main{
 .breadcrumbs .crumb:last-child::after{
   display: none;
 }
+
+/* Home image */
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.home-img{
+  height: 500px;
+}

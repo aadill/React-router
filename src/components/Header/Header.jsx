@@ -22,6 +22,9 @@ function Header() {
             <NavLink to="vedio" className="nav-item">
               Vedios 
             </NavLink>
+            <NavLink to="songs" className="nav-item">
+              Song Selection 
+            </NavLink>
           </nav>
           <Breadcrumbs/>
     </div>

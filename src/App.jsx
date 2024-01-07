@@ -19,6 +19,7 @@ import Details, { careerLoaderDetails } from "./components/Careers/Details";
 import CareerError from "./components/Careers/CareerError";
 import NotFound from "./components/NotFound";
 import Vedio from "./components/Vedio";
+import AudioPlayer from "./components/AudioPlayer";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +35,7 @@ const router = createBrowserRouter(
         <Route path=":id" element={<Details />} loader={careerLoaderDetails}></Route>
       </Route>
       <Route path="vedio" element={<Vedio />}></Route>
+      <Route path="songs" element={<AudioPlayer />}></Route>
       <Route path="*" element={<NotFound/>}></Route>
     </Route>
   )

@@ -35,6 +35,12 @@ function Footer() {
               <NavLink to="career" >
                 Careers
               </NavLink>
+              <NavLink to="vedio" >
+                Vedios
+              </NavLink>
+              <NavLink to="songs" >
+                Song Selection
+              </NavLink>
             </ul>
           </div>
         </div>
